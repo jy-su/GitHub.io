@@ -1,0 +1,92 @@
+main {
+  --main-width: 760px;
+}
+
+/* fix scroll bar background */
+::-webkit-scrollbar{ background: var(--theme); }
+
+
+/* top left text not so big */
+.logo a {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+/* footnotes */
+.post-content .footnote-ref {
+    font-size: smaller;
+}
+
+.post-content .footnotes {
+    font-size: smaller;
+}
+
+/* big home text not bold by default */
+.home-info .entry-header h1 {
+  font-weight: normal;
+}
+
+/* img: disable round corners by setting square-corner class */
+.post-content img.square-corner {
+    border-radius: unset;
+}
+
+/* figure: disable round corners by setting square-corner class */
+.post-content figure img {
+    margin: 0;
+}
+
+.post-content figure.square-corner img {
+    border-radius: unset;
+}
+
+.post-content figure figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+.post-content figure figcaption p {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* code block: light background */
+:root {
+    --hljs-bg: var(--code-bg);
+}
+
+.post-content pre code {
+    color: var(--content);
+}
+
+/* better spacing after code blocks */
+.post-content .highlight {
+    margin-bottom: 20px !important;
+}
+
+.post-content table tbody tr td {
+    vertical-align: top;
+}
+
+/* fix definition lists */
+.post-content dl {
+    margin-bottom: 20px;
+}
+
+/* extract */
+blockquote.extract {
+    font-size: 14px;
+}
+
+/* tweet shortcode */
+.post-content blockquote.twitter-tweet {
+    font-size: smaller;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+/* better spacing after vidoe */
+.post-content .html-video {
+    margin-bottom: 20px !important;
+}

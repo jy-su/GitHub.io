@@ -1,0 +1,45 @@
+baseURL: https://jysu.org/
+languageCode: en-us
+title: jysu
+theme: ["PaperMod"]
+copyright: "&copy; 2024 Jingyi Su"
+
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: About Me
+          url: aboutme
+          weight: 5
+        - name: Archives
+          url: archives
+          weight: 10
+       # - name: Search
+       #   url: search/
+       #   weight: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  homeInfoParams:
+    Title: "Jingyi Su"
+    Content: >
+      👋 Welcome to my personal site!
+   
+  socialIcons:
+    - name: github
+      title: View Source on Github
+      url: "https://github.com/jy-su"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/jingyi-su"
