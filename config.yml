@@ -43,3 +43,5 @@ params:
       url: "https://github.com/jy-su"
     - name: linkedin
       url: "https://www.linkedin.com/in/jingyi-su"
+
+  google_analytics_id: "G-KWSDKVD57N"
